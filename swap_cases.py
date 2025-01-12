@@ -1,12 +1,12 @@
 # Function to swap the letters
 def swap_case(s):
-    # list to add the converted
+    # list to add the converted characters
     new_list = []
     # make the string into a list to iterate
-    letters = list(s)
+    characters = list(s)
     # abc = 'abcdefghijklmnopqrstuvwxyz' # use in previous solution
 
-    for char in letters:
+    for char in characters:
         # if char in abc:
         if char.islower():
             new_list.append(char.upper())
